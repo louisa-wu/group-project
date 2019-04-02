@@ -10,9 +10,9 @@ header {
 	}
 
 	.logo img{
-  width: 265px;
+  width: 250px;
   height: auto;
-  margin-top: 10px;
+  margin-top: 8px;
 	  }
 
 	.logo {
@@ -40,17 +40,13 @@ header {
 
 .top-nav li a {
     color: black;
-    font-size: 1.15em;
+    font-size: 1em;
     padding: 0;
     font-weight: 600;
     text-decoration: none;
 }
-.top-nav li a:hover{
+.top-nav li a:hover ,.top-nav li a.active{
     color:red;
-}
-.top-nav li a.active{
-	color: red;
-	text-decoration: underline;
 }
 
 /* carousel slide */
