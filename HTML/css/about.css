@@ -1,0 +1,117 @@
+body{
+  background: rgb(241, 241, 241);
+}
+
+/* nav css */
+header {
+		background: #FFF;
+		height: 86px;
+		position: fixed;
+		z-index: 1000;
+		width: 100%;
+		opacity:0.84;
+		top: 0;
+	}
+
+	.logo img{
+  width: 265px;
+  height: auto;
+  margin-top: 10px;
+	  }
+
+	.logo {
+	    position: absolute;
+	    top: 3%;
+	    z-index: 999;
+	    left: 1%;
+}
+.top-nav {
+    text-align: right;
+    width: 98%;
+    margin: 25px;
+}
+
+}
+.top-nav ul {
+	margin: 0;
+  padding: 0;
+}
+.top-nav ul li{
+	list-style-type:none;
+	display: inline-block;
+	margin: 0 2em;
+}
+
+.top-nav li a {
+    color: black;
+    font-size: 1.15em;
+    padding: 0;
+    font-weight: 600;
+    text-decoration: none;
+}
+.top-nav li a:hover{
+    color:red;
+}
+.top-nav li a.active{
+		color: red;
+		text-decoration: underline;
+}
+/* end of nav */
+
+/* test*/
+body, html {
+  height: 100%;
+  margin: 0px;
+  font-family: Helvetica;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://43nnuk1fz4a72826eo14gwfb-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/1019.Chcoloate-Beet-Cupcakes-Blog-Hero-730x485.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* footer social media  */
+footer{
+	background-color: #212844;
+}
+.socialbutton {
+  transition: transform .2s;
+  width: 45px;
+  height: 45px;
+  margin-right: 7px;
+  margin-top: 7px;
+}
+.socialbutton:hover {
+  transform: scale(1.25);
+}
+.social:hover {
+  text-decoration: none !important;}
