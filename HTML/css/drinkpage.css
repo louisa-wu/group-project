@@ -1,5 +1,5 @@
 body{
-  background: rgb(241, 241, 241);
+  background: #212844;
 }
 
 /* nav css */
@@ -60,8 +60,9 @@ header {
 #drinks p{
   padding: 1.0rem 1.5rem;
   text-align: center;
-  text-decoration: underline;
+
   font-size: 50px;
+  color: #fff;
 }
 
 #bootstrap-override .flowers-container {
@@ -122,7 +123,7 @@ header {
 
 /* footer social media  */
 footer{
-	background-color: black;
+	background-color: #212844;
 }
 .socialbutton {
   transition: transform .2s;
