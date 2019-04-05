@@ -5,7 +5,7 @@ body{
 /* nav css */
 header {
 		background: #FFF;
-		height: 86px;
+		height: 70px;
 		position: fixed;
 		z-index: 1000;
 		width: 100%;
@@ -69,14 +69,14 @@ header {
 }
 
 .left {
-  transform: translate(0, 13%);
+  transform: translate(0, 10.5%);
   left: 0;
   background-image: url('https://i.imgur.com/4BUUjN0.jpg');
   background-size: cover;
 }
 
 .right {
-  transform: translate(0, 13%);
+  transform: translate(0, 10.5%);
   right: 0;
   background-image: url('https://i.imgur.com/LmivECQ.jpg');
   background-size: cover;
