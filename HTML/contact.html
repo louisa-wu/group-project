@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>After Dinner: About</title>
+    <link rel="icon" href="images\logo.png" type="image/png" sizes="16x16">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mainstyle.css">
+  </head>
+
+<body>
+<header>
+  <!-- Navigation -->
+  <div class="header">
+			<div class="logo">
+				<h1><a href="about.html"><img src="images\logo.png" alt=""/</a></h1>
+			</div>
+			<div class="top-nav">
+				<ul>
+					<li><a href="about.html">About</a></li>
+					<li><a href="menu.html">Menu</a></li>
+          
+          <li><a class="active" href="contact.html">Contact</a></li>
+				</ul>
+<!-- end of Navigation -->
+	</header>
+  <!-- title page -->
+  <br><br><br><br>
+
+  <!-- about -->
+  <div id="about-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+              <div class="right-column">
+                <h3>Contact Us</h3>
+                <p>Thank you for your interest in After Dinner.</p>
+                <br>
+                <p>Do you have any <strong>general enquiries</strong>?</p>
+                <br>
+                <p>Do you have any crowd-pleasing drink or dessert recipes</p>
+                <p> that you would like to feature on <strong>upcoming blog page</strong>?</p>
+                <br>
+                <p>Please do not hesitate to contact us directly - by filling out the form below.</p>
+                <p>We will come back to you within <strong>2 working days.</strong></p>
+                                            </div>
+                </div>
+
+        <!-- Photo 1 -->
+        <div class="right-column">
+          <div class="col-sm-6">
+            <img src="images\logo.png" alt="image of afterdinner logo" class="img-responsive">
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  <br><br>
+
+
+  <!--- Form-->
+  <div class="container">
+
+             <div class="row">
+
+                 <div class="col-sm-6">
+  <form id="contact-form" method="post" action="contact.php" role="form">
+
+      <div class="messages"></div>
+
+      <div class="controls">
+
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_name">First Name *</label>
+                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_lastname">Last Name *</label>
+                      <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_email">Email *</label>
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_need">Please specify your need *</label>
+                      <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                          <option value=""></option>
+                          <option value="Request quotation">General Enquiries</option>
+                          <option value="Request order status">Drink Recipe</option>
+                          <option value="Request copy of an invoice">Dessert Recipe</option>
+
+                      </select>
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="form_message">Message *</label>
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Message *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <div class="col-md-12">
+                  <input type="submit" class="btn btn-success btn-send" value="Send message">
+              </div>
+          </div>
+          <br>
+          <div class="row">
+              <div class="col-md-12">
+                  <p class="text-muted">
+                      <strong>*</strong> These fields are required. </p>
+              </div>
+          </div>
+      </div>
+
+  </form>
+  </div></div>
+
+
+
+
+
+
+
+
+
+
+      <!-- social media icons -->
+      <footer class="panel-footer" align="center">
+        <a href="https://twitter.com/" class="social" target="_blank">
+          <img title="Twitter" alt="Twitter" class="socialbutton" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="45" height="45" />
+        </a>
+        <a href="https://www.facebook.com/" class="social" target="_blank">
+          <img title="Facebook" alt="Facebook" class="socialbutton" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="45" height="45" />
+        </a>
+          <a href="https://www.instagram.com/" class="social" target="_blank">
+          <img title="Instagram" alt="Instagram" class="socialbutton" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="45" height="45" />
+        </a>
+        <p align="center"> &copy; After Dinner 2019 copyright.</p>
+      </footer>
+      <br>
+
+
+
+
+
+
+
+
+
+    <!--SCRIPTS-->
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+  </html>

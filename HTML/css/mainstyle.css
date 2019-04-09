@@ -1,0 +1,230 @@
+/*------ background and nav for all pages ----*/
+body{
+  background: #FFF;
+}
+
+/* nav css */
+header {
+		background: #FFF;
+		height: 70px;
+		position: fixed;
+		z-index: 1000;
+		width: 100%;
+		opacity:0.84;
+		top: 0;
+    border-top: 2.4px solid #dddddd;
+    border-bottom: 2.4px solid #dddddd;
+	}
+
+	.logo img{
+  width: 65px;
+  height: auto;
+  margin-top: 0px;
+  opacity: 1.0;
+   }
+
+	.logo {
+	    position: absolute;
+	    top: 0%;
+	    z-index: 999;
+	    left: 0.4%;
+}
+.top-nav {
+    text-align: right;
+    width: 98%;
+    margin: 20px;
+}
+
+}
+.top-nav ul {
+	margin: 0;
+  padding: 0;
+}
+.top-nav ul li{
+	list-style-type:none;
+	display: inline-block;
+	margin: 0 2em;
+}
+
+.top-nav li a {
+    color: black;
+    font-size: 1.02em;
+    padding: 0;
+    font-weight: 000;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+.top-nav li a:hover{
+    color:#ff6dbb;
+
+
+}
+.top-nav li a.active{
+		color: #ff6dbb;
+		text-decoration: underline;
+    font-weight: bold;
+}
+/* end of nav */
+/*------ end of background and nav for all pages ----*/
+
+/* ---- start page title for all pages css -------*/
+#about-text h3 {
+	font-weight: bold;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#about-text p {
+	line-height: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+/* ---- end of title for all pages css -------*/
+
+/*--- button for split pages ---*/
+button{
+  transform: translate(-15%,5%);
+  border-radius: 15px;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color:  #ff6dbb;
+  color: black;
+}
+/*--- end of button for split pages ---*/
+
+/* ---- start split for menu pages css -------*/
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  t
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+/* ---- end of split for menu pages css -------*/
+
+/* ---- start: images split for menu pages css -------*/
+.leftdrinkanddessets {
+  transform: translate(0, 10.5%);
+  left: 0;
+  background-image: url('https://i.imgur.com/4BUUjN0.jpg');
+  background-size: cover;
+}
+
+.rightdrinkanddessets {
+  transform: translate(0, 10.5%);
+  right: 0;
+  background-image: url('https://i.imgur.com/LmivECQ.jpg');
+  background-size: cover;
+}
+
+.leftdrinks {
+  transform: translate(0, 10.5%);
+  left: 0;
+  background-image: url('https://i.imgur.com/F6ml0eu.jpg');
+  background-size: cover;
+}
+
+.rightdrinks {
+  transform: translate(0, 10.5%);
+  right: 0;
+  background-image: url('https://i.imgur.com/BCHrqxq.jpg');
+  background-size: cover;
+}
+
+.leftbake {
+  transform: translate(0, 10.5%);
+  left: 0;
+  background-image: url('https://i.imgur.com/Mov7Xod.jpg');
+  background-size: cover;
+}
+
+.rightbake {
+  transform: translate(0, 10.5%);
+  right: 0;
+  background-image: url('https://i.imgur.com/mgvrDPA.jpg');
+  background-size: cover;
+}
+/* ---- end: images split for menu pages css -------*/
+
+/* ----Start: recipe images layout------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 23%;
+  padding: 10px;
+  transform: translate(1%,-6%);
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* ----End: recipe images layout------------------------*/
+
+/* ----Start:recipe images hover------------------------*/
+
+.topleft {
+    position: absolute;
+    top: 145px;
+    left: 28px;
+font-size: 15px;
+    border: 0;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 2px #ff6dbb;
+    color: white;
+    background-color:rgba(20, 5, 5, 0.45);
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .zoom:hover {
+    transform: scale(1.139);
+  }
+/* ----End:recipe images hover------------------------*/
+
+
+
+/* footer social media for all pages*/
+footer{
+	background-color: #FFF;
+}
+.socialbutton {
+  transition: transform .2s;
+  width: 45px;
+  height: 45px;
+  margin-right: 7px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.socialbutton:hover {
+  transform: scale(1.5);
+}
+.social:hover {
+  text-decoration: none !important;}
